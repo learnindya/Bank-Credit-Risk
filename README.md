@@ -1,12 +1,13 @@
 # Bank-Credit-Risk
-Determine credit risk category of bank customers: Good or Bad.
 
 ## Problem
 You are hired as a data scientist intern in a project from a lending company. You are asked to build a model that can predict credit risk using a dataset from the company which comprises list of credits that are accepted and rejected.
 
 ## Goal
 Determine credit risk category of bank customers.
+
 0: Good risk
+
 1: Bad risk
 
 ## Defining Label
@@ -85,22 +86,34 @@ Change to numerical data type.
 - SMOTE
 
 ## Result
-LogisticRegression()
+* LogisticRegression()
+
 AUC (Train): 0.9855
+
 AUC (Test): 0.9714
+
 KS (Train): 0.9004
+
 KS (Test): 0.8474
 
-DecisionTreeClassifier()
+* DecisionTreeClassifier()
+
 AUC (Train): 1.0000
+
 AUC (Test): 0.9309
+
 KS (Train): 1.0000
+
 KS (Test): 0.8618
 
-RandomForestClassifier()
+*RandomForestClassifier()
+
 AUC (Train): 1.0000
+
 AUC (Test): 0.9814
+
 KS (Train): 1.0000
+
 KS (Test): 0.8750
 
 ## Summary
