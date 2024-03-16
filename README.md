@@ -1,4 +1,4 @@
-# Bank-Credit-Risk
+# Loan-Credit-Risk
 
 ## Problem
 You are hired as a data scientist intern in a project from a lending company. You are asked to build a model that can predict credit risk using a dataset from the company which comprises list of credits that are accepted and rejected.
